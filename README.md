@@ -23,7 +23,7 @@ Lite 2 doesn't has an ethernet port but it does has wifi AC 5Ghz. Which works pr
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; dns-nameservers 1.1.1.1 1.0.0.1</div>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .....</div>
        
-<p>5. Now follow the instructions.</p>
+<p>5. Now follow the on screen instructions.</p>
 <p><br />6. Select ClouldFlare DNS because its faster than the Google DNS(right now).</p>
 <p><br />7. Select Protocols (IPv4 and IPv6).</p>
 <p><br />8. It will again ask for network settings. Make sure your gateway and IP are entered correctly.</p>
