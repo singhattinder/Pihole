@@ -1,4 +1,4 @@
-# Pihole
+# Pi-hole
 ## Implementing own DNS server with ad blocking 
 
 
