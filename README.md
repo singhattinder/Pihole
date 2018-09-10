@@ -19,7 +19,7 @@ Lite 2 doesn't have an ethernet port but it does has wifi AC 5Ghz. Which works p
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;With .....</div>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; auto wlan0</div>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; iface wlan0 inet static</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; address 192.168.0.10</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; address 192.168.0.193</div>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; netmask 255.255.255.0</div>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; gateway 192.168.0.1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #99ccff;">// check your gateway IP</span></div>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; dns-nameservers 1.1.1.1 1.0.0.1</div>
