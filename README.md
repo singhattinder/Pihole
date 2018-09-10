@@ -13,16 +13,16 @@ Its better to give a static IP in your router to get rid of IP clashes.
 <div>&nbsp; replace ....</div>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; auto wlan0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// <span style="color: #99ccff;">check your interface first with </span>ifconfig</div>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; iface wlan0 inet dhcp</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ....</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .....</div>
 <div>&nbsp;</div>
 <div>&nbsp; With .....</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp;auto wlan0</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp;iface wlan0 inet static</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp;address 192.168.0.10</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp;netmask 255.255.255.0</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp;gateway 192.168.0.1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #99ccff;">// check your gateway IP</span></div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp;dns-nameservers 1.1.1.1 1.0.0.1</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp;.....</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;auto wlan0</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;iface wlan0 inet static</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;address 192.168.0.10</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;netmask 255.255.255.0</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gateway 192.168.0.1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #99ccff;">// check your gateway IP</span></div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;dns-nameservers 1.1.1.1 1.0.0.1</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.....</div>
        
 3. Reboot with sudo shutdown -r now
 4. Now install Pi-hole with 
