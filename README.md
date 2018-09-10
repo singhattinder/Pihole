@@ -3,7 +3,9 @@
 
 
 For this project I am using Orange pi lite 2. Preferably we should use any board with similar specifications and that has an ethernet port.
-Lite 2 doesn't has an ethernet port but it does has wifi AC 5Ghz. Which works pretty well in our use case. 
+Lite 2 doesn't have an ethernet port but it does has wifi AC 5Ghz. Which works pretty well in our use case. I have ubuntu 16.04.5 LTS installed on this board.
+
+<a href="https://imgbb.com/"><img src="https://image.ibb.co/mo6WN9/Screen_Shot_2018_09_10_at_4_28_50_PM.png" alt="Screen_Shot_2018_09_10_at_4_28_50_PM" border="0"></a>
 
 <p>1. Connect to the pi with SSH or Serial port.</p>
 <p><br />2. Set a static IP address. Its better to give a static IP in your router to get rid of IP clashes.</p>
