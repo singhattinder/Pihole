@@ -6,12 +6,15 @@ For this project I am using Orange pi lite 2. Preferably we should use any board
 Lite 2 doesn't has an ethernet port but it does has wifi AC 5Ghz. Which works pretty well in our scenario. 
 
 1. Connect to the pi with SSH or Serial port.
-2. Set a static IP address. Its better to give a static IP in your router to get rid of IP clashes.
+2. Set a static IP address.
+Its better to give a static IP in your router to get rid of IP clashes.
+  
   type:  sudo nano /etc/network/interfaces
   replace ....
           auto wlan0                // check your interface first with ifconfig
           iface wlan0 inet dhcp
           ....
+	  
   With .....
        auto wlan0
        iface wlan0 inet static
@@ -20,6 +23,7 @@ Lite 2 doesn't has an ethernet port but it does has wifi AC 5Ghz. Which works pr
        gateway 192.168.0.1               // check your gateway IP
        dns-nameservers 1.1.1.1 1.0.0.1
        .....
+       
 3. Reboot with sudo shutdown -r now
 4. Now install Pi-hole with 
       git clone --depth 1 https://github.com/pi-hole/pi-hole.git Pi-hole
