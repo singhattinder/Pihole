@@ -31,7 +31,7 @@ Lite 2 doesn't has an ethernet port but it does has wifi AC 5Ghz. Which works pr
 
 ### Your web access page should look like this.
 
-<br/ >
+
 
 <a href="https://ibb.co/jj8xUp"><img src="https://preview.ibb.co/iagHUp/Screen_Shot_2018_09_10_at_3_55_32_PM.png" alt="Screen_Shot_2018_09_10_at_3_55_32_PM" border="0"></a>
 
