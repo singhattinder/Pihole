@@ -28,7 +28,9 @@ Lite 2 doesn't has an ethernet port but it does has wifi AC 5Ghz. Which works pr
 <p><br />8. It will again ask for network settings. Make sure your gateway and IP are entered correctly.</p>
 <p><br />9. Follow along with default settings.</p>
 <p><br />10. In the final step write down the web password for web access.</p>
+
 ### Your web access page should look like this.
+
 <br/ >
 
 <a href="https://ibb.co/jj8xUp"><img src="https://preview.ibb.co/iagHUp/Screen_Shot_2018_09_10_at_3_55_32_PM.png" alt="Screen_Shot_2018_09_10_at_3_55_32_PM" border="0"></a>
