@@ -22,10 +22,12 @@ Lite 2 doesn't has an ethernet port but it does has wifi AC 5Ghz. Which works pr
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; dns-nameservers 1.1.1.1 1.0.0.1</div>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .....</div>
        
-<p>3. Reboot with sudo shutdown -r now</p>
-<p>4. &nbsp;Now install Pi-hole with</p>
-<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; git clone --depth 1 https://github.com/pi-hole/pi-hole.git Pi-hole<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cd Pi-hole/automated\ install/<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; bash basic-install.sh</p>
-<p>5. Now follow the instructions.<br />6. Select ClouldFlare DNS because its faster than the Google DNS(right now).<br />7. Select Protocols (IPv4 and IPv6).<br />8. It will again ask for network settings. Make sure your gateway and IP are entered correctly.<br />9. Follow along with default settings. <br />10. In the final step write down the web password for web access.</p>
+<p>5. Now follow the instructions.</p>
+<p><br />6. Select ClouldFlare DNS because its faster than the Google DNS(right now).</p>
+<p><br />7. Select Protocols (IPv4 and IPv6).</p>
+<p><br />8. It will again ask for network settings. Make sure your gateway and IP are entered correctly.</p>
+<p><br />9. Follow along with default settings.</p>
+<p><br />10. In the final step write down the web password for web access.</p>
 Your web access page should look like this.
 
 <a href="https://ibb.co/jj8xUp"><img src="https://preview.ibb.co/iagHUp/Screen_Shot_2018_09_10_at_3_55_32_PM.png" alt="Screen_Shot_2018_09_10_at_3_55_32_PM" border="0"></a>
