@@ -9,20 +9,20 @@ Lite 2 doesn't has an ethernet port but it does has wifi AC 5Ghz. Which works pr
 2. Set a static IP address.
 Its better to give a static IP in your router to get rid of IP clashes.
   
-  type:  sudo nano /etc/network/interfaces
-  replace ....
-          auto wlan0                // check your interface first with ifconfig
-          iface wlan0 inet dhcp
-          ....
-	  
-  With .....
-       auto wlan0
-       iface wlan0 inet static
-       address 192.168.0.10
-       netmask 255.255.255.0
-       gateway 192.168.0.1               // check your gateway IP
-       dns-nameservers 1.1.1.1 1.0.0.1
-       .....
+  <div>type: &nbsp;sudo nano /etc/network/interfaces</div>
+<div>&nbsp; replace ....</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; auto wlan0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// check your interface first with ifconfig</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; iface wlan0 inet dhcp</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ....</div>
+<div>&nbsp;</div>
+<div>&nbsp; With .....</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;auto wlan0</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;iface wlan0 inet static</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;address 192.168.0.10</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;netmask 255.255.255.0</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;gateway 192.168.0.1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // check your gateway IP</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;dns-nameservers 1.1.1.1 1.0.0.1</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;.....</div>
        
 3. Reboot with sudo shutdown -r now
 4. Now install Pi-hole with 
