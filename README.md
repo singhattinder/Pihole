@@ -23,7 +23,7 @@ Lite 2 doesn't has an ethernet port but it does has wifi AC 5Ghz. Which works pr
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;dns-nameservers 1.1.1.1 1.0.0.1</div>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.....</div>
        
-3. Reboot with sudo shutdown -r now
+<p>3. Reboot with sudo shutdown -r now</p>
 <p>4. &nbsp;Now install Pi-hole with</p>
 <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; git clone --depth 1 https://github.com/pi-hole/pi-hole.git Pi-hole<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cd Pi-hole/automated\ install/<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; bash basic-install.sh</p>
 <p>5. Now follow the instructions.<br />6. Select ClouldFlare DNS because its faster than the Google DNS(right now).<br />7. Select Protocols (IPv4 and IPv6).<br />8. It will again ask for network settings. Make sure your gateway and IP are entered correctly.<br />9. Follow along with default settings. <br />10. In the final step write down the web password for web access.</p>
@@ -49,5 +49,7 @@ Some other Gravity lists for more blocking
   
   
 I did however used https://smokingwheels.github.io/Pi-hole/allhosts. It contains over 1.2 Million domains but don't use this because it blocks many CDNs and other important domains. Important point to be noted here you cannot block youtube ads because these are coming from same domains as the content.
+
+Now just point your device to this DNS server.
   
 
