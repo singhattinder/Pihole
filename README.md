@@ -35,3 +35,24 @@ Lite 2 doesn't has an ethernet port but it does has wifi AC 5Ghz. Which works pr
 Your web access page should look like this.
 
 <a href="https://ibb.co/jj8xUp"><img src="https://preview.ibb.co/iagHUp/Screen_Shot_2018_09_10_at_3_55_32_PM.png" alt="Screen_Shot_2018_09_10_at_3_55_32_PM" border="0"></a>
+
+
+
+
+
+Some other Gravity lists for more blocking 
+
+	https://raw.githubusercontent.com/anudeepND/youtubeadsblacklist/master/hosts.txt	
+	https://raw.githubusercontent.com/HenningVanRaumle/pihole-ytadblock/master/ytadblock.txt	
+	https://tspprs.com/dl/ads	
+	https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/HOSTS/CK's-Spotify-HOSTS-FilterList.txt	
+	https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt	
+	https://v.firebog.net/hosts/Easylist.txt	
+	https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts;showintro=0	
+	https://v.firebog.net/hosts/AdguardDNS.txt
+  
+  
+  
+I did however used https://smokingwheels.github.io/Pi-hole/allhosts. It contains over 1.2 Million domains but don't use this because it blocks many CDNs and other important domains. Important point to be noted here you cannot block youtube ads because these are coming from same domains as the content.
+  
+
