@@ -1,5 +1,5 @@
 # Pihole
-##Implementing own DNS server with ad blocking 
+## Implementing own DNS server with ad blocking 
 
 
 For this project I am using Orange pi lite 2. Preferably we should use any board with similar specifications and that has an ethernet port.
@@ -28,7 +28,8 @@ Lite 2 doesn't has an ethernet port but it does has wifi AC 5Ghz. Which works pr
 <p><br />8. It will again ask for network settings. Make sure your gateway and IP are entered correctly.</p>
 <p><br />9. Follow along with default settings.</p>
 <p><br />10. In the final step write down the web password for web access.</p>
-Your web access page should look like this.
+### Your web access page should look like this.
+<br/ >
 
 <a href="https://ibb.co/jj8xUp"><img src="https://preview.ibb.co/iagHUp/Screen_Shot_2018_09_10_at_3_55_32_PM.png" alt="Screen_Shot_2018_09_10_at_3_55_32_PM" border="0"></a>
 
@@ -51,6 +52,6 @@ Some other Gravity lists for more blocking
   
 I did however used https://smokingwheels.github.io/Pi-hole/allhosts. It contains over 1.2 Million domains but don't use this because it blocks many CDNs and other important domains. Important point to be noted here you cannot block youtube ads because these are coming from same domains as the content.
 
-Now just point your device to this DNS server.
+### Now just point your device to this DNS server.
   
 
