@@ -1,5 +1,5 @@
 # Pi-hole
-## Implementing own DNS server with ad blocking 
+## Implementing own DNS Relay with ad blocking 
 
 
 For this project I am using Orange pi lite 2. Preferably we should use any board with similar specifications and that has an ethernet port.
