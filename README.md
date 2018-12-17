@@ -55,7 +55,7 @@ Some other Gravity lists for more blocking
   
   
   
-I did however used https://smokingwheels.github.io/Pi-hole/allhosts. It contains over 1.2 Million domains but don't use this because it blocks many CDNs and other important domains. Important point to be noted here you cannot block youtube ads because these are coming from same domains as the content.
+I did use https://smokingwheels.github.io/Pi-hole/allhosts. It contains over 1.2 Million domains but don't use this because it blocks many CDNs and other important domains. Important point to be noted here you cannot block youtube ads because these are coming from same domains as the content.
 
 ### Now just point your device to this DNS server.
 
